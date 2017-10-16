@@ -55,17 +55,7 @@ import ReactDOM from 'react-dom'
     //let err;
     //debugger
     //if (fields && fields.nemail && fields.nemail.touched && !fields.nemail.valid ) {
-      //err = (<span>{fields.nemail.error}</span>)
-    //}
-    //return (
-      //<form>
-        //<input type="email" name="nemail"/>
-        //{err}
-        //<input type="text" name="something" required/>
-      //</form>
-    //)
-  //}
-//}
+\  //edited just now
 
 function Reform(WrappedComponent) {
   return class ReformEnhancer extends WrappedComponent {
