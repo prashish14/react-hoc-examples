@@ -8,7 +8,7 @@ function PPHOC(WrappedComponent) {
   return class PP extends React.Component {
     constructor(props) {
       super(props)
-      this.state = { fields: {} }
+      this.state = { name: {} }
     }
 
     getField(fieldName) {
