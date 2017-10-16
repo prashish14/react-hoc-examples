@@ -20,7 +20,7 @@ function PPHOC(WrappedComponent) {
       // Unless you really know what you are doing, dont trigger a state change
       // inside the render function, this is just for teaching purposes
       const props = Object.assign({}, this.props, {
-        ref: this.updateName
+        
       })
       return (
         <div>
@@ -32,7 +32,7 @@ function PPHOC(WrappedComponent) {
             `refs` and saves it in it's own state:
           </p>
           <pre>{JSON.stringify(this.state, null, 2)}</pre>
-          <WrappedComponent {...props}/>
+         
         </div>
       )
     }

@@ -21,13 +21,7 @@ function PPHOC(WrappedComponent) {
 class Example extends React.Component {
   render() {
     return (
-      <div>
-        <p>
-          As you can see, all original props (date), are being passed through or proxied,
-          and also new props (user) are being added.
-        </p>
-        <pre>{JSON.stringify(this.props, null, 2)}</pre>
-      </div>
+    
     )
   }
 }
